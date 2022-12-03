@@ -16,5 +16,5 @@ with open('./input.txt', 'r') as file:
 
             count = 0
 
-print(f"task 1: {min_heap[0]}")
+print(f"task 1: {max(min_heap)}")
 print(f"task 2: {sum(min_heap)}")
